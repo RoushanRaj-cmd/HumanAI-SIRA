@@ -1,0 +1,33 @@
+# Python environments
+venv/
+
+# Cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data and Notebooks
+.ipynb_checkpoints/
+*.csv
+!data/example.csv
+*.pdf
+*.tex
+*.log
+*.aux
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.idea/
+.vscode/
+
+# Streamlit
+.streamlit/
